@@ -1,0 +1,274 @@
+* {
+    margin: -20px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 251, 251);
+    overflow-x: hidden;
+
+}
+
+.container {
+
+    justify-content: center;
+    height: 1500px;
+    background-color: rgba(248, 246, 246, 0);
+    width: 1000px;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.part1 {
+    display: flex;
+    width: 1100px;
+    margin-left: 20px;
+
+}
+
+.background_color {
+    height: 900px;
+    width: 1000px;
+    background-color: rgba(11, 117, 133, 0.43);
+    margin-left: -980px;
+}
+
+.bar_symbol {
+    width: 70px;
+    height: 17px;
+    background-color: rgb(255, 255, 6);
+    margin-left: 99px;
+    margin-top: 104px;
+}
+
+.symbol_text_u {
+    display: flex;
+    color: white;
+    margin-top: -32px;
+    margin-left: 112px;
+
+    font-size: 59px;
+}
+
+.symbol_text_plus {
+    color: white;
+    margin-top: 0px;
+    margin-left: 25px;
+
+    font-size: 59px;
+}
+
+.yellow_background {
+    height: 350px;
+    width: 300px;
+    margin-top: -228.5px;
+    margin-left: 570px;
+    background-color: rgb(255, 255, 62);
+}
+
+.yellow_background_text {
+    color: white;
+
+    margin-right: 130px;
+    margin-top: -245px;
+    font-size: 34px;
+    text-align: end;
+}
+
+.logo1 {
+    margin-left: 440px;
+    margin-top: 187px;
+}
+
+.hading1 {
+    margin-top: 60px;
+    margin-left: 125px;
+    letter-spacing: 23px;
+    font-size: 93px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.hading2 {
+    margin-top: -35px;
+    margin-left: 148px;
+    letter-spacing: 4px;
+    font-size: x-large;
+    color: white;
+
+}
+
+.part_2 {
+    height: 650px;
+}
+
+.hading3 {
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.line {
+    width: 713px;
+    margin-left: 153px;
+    margin-top: 15px;
+}
+
+.hr {
+    background-color: black;
+    height: 3px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.detail {
+    height: 300px;
+    width: 790px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.our_sevices {
+    text-align: left;
+    width: 290px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.our_sevices h2 {
+    font-family: Thin 100;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.our_sevices span {
+    margin-left: 3px;
+    font-weight: 700;
+    color: rgb(51, 206, 252);
+}
+
+.our_sevices P {
+    margin-top: 15px;
+    width: 300px;
+}
+.our_plan {
+    text-align: left;
+    width: 275px;
+    margin-left: 185px;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.our_plan h2 {
+    font-family: Thin 100;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.our_plan span {
+    margin-left: 3px;
+    font-weight: 700;
+    color: rgb(51, 206, 252);
+}
+
+.our_plan P {
+    margin-top: 15px;
+}
+.map{
+    width: 30px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 500px;
+    bottom: 4%;
+    margin-top: -20px;
+}
+.mail{
+    width: 30px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.browser{
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: -300px;
+
+}
+.L{
+    margin-left: 19%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -10px;
+
+}
+.N{
+    margin-left: 50%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -15px;
+
+}
+.C{
+    margin-left: 19%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -15px;
+}
+.W{
+    margin-left: 50%;
+    position: relative;
+    bottom: 70%;
+    margin-top: -15px;
+}
+.fotter::after {
+    right: 0;
+    background-color:   rgba(231, 247, 6, 0.901);
+}
+.fotter::before {
+    left: 0;
+    background-color:  rgba(231, 247, 6, 0.901);
+
+}
+.fotter::after, .fotter::before {
+    height:100px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 3%;
+    margin-top: 1400px;
+    margin-left: 290px;
+    margin-right: 290px;
+    .fotter {
+        height:30px;
+        width:10%;
+        position:relative;
+        background:white;
+
+    
+    }
+}
+.dot{
+    margin-left: 68%;
+    margin-top: -50px;
+    padding-bottom: 400px;
+}
+.circle{
+  margin-left: 80%;
+  margin-top: -505px;
+  padding-bottom: 500px;
+}
